@@ -1,0 +1,18 @@
+:root{
+    --border1: 2px solid rgb(221, 18, 18);
+    --border2: 2px solid rgb(212, 39, 255);
+    --border3: 3px solid rgb(17, 197, 86);
+    --border4: 2px solid rgb(108, 28, 236);
+    --border5: 2px solid rgb(253, 173, 23);
+}
+
+body {
+    border: var(--border1);
+}
+
+/* .wrapper {
+    border: var(--border3);
+} */
+/* .card {
+    border: var(--border2);
+} */
