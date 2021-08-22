@@ -3,16 +3,64 @@
     --border2: 2px solid rgb(212, 39, 255);
     --border3: 3px solid rgb(17, 197, 86);
     --border4: 2px solid rgb(108, 28, 236);
-    --border5: 2px solid rgb(253, 173, 23);
+    --border5: 3px solid rgb(253, 173, 23);
+
+    --lime-green: hsl(163, 72%, 41%);
+    --bright-red: hsl(356, 69%, 56%);
+    --facebook: #168ef4;
+    --twitter: hsl(203, 89%, 53%);
+    --instagram-1: hsl(37, 97%, 70%);
+    --instagram-2: hsl(329, 70%, 58%);
+    --youTube: hsl(348, 97%, 39%);
+    --gray: #5f616d;
+    --cardGray: #f0f3fa;
+    --lightGray: #f8f9fe;
+    --cardTitle: #6f717e;
+    --baseBackground: white;
+    --baseColor: #1d2029;
+    --switchSpinner: white;
+    --switch: #5f616d;
 }
 
 body {
-    border: var(--border1);
+    /* border: var(--border1); */
+    margin: 0;
+    font-family: 'Inter', sans-serif;
 }
 
-/* .wrapper {
-    border: var(--border3);
-} */
-/* .card {
-    border: var(--border2);
-} */
+.card {
+    /* border: var(--border1); */  
+    border-radius: 4px;
+   overflow: hidden;  
+   background: #f0f3fa;
+   text-align: center;
+} 
+
+.card:before {
+    content: "";
+    height: 4px;
+    display: block;
+    background: var(--facebook);
+   
+}
+
+.card-followers {
+    border: var(--border4);  
+
+
+}
+
+.card-followers-numbers {
+    border: var(--border5);  
+    font-size: 50px;
+    font-weight: 700;
+}
+.card-followers-title {
+    border: var(--border3);  
+    display: block;
+    text-transform: uppercase;
+}
+
+.wrapper {
+ padding: 0 30px;
+} 
